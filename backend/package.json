@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-  "dev": "nodemon --watch src --exec tsx src/index.ts",
-  "build": "tsc",
-  "start": "node dist/src/index.js"
-},
-
+    "dev": "nodemon --watch src --exec tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/src/index.js"
+  },
   "type": "module",
   "keywords": [],
   "author": "",
@@ -21,6 +20,9 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "@prisma/client": "^5.18.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "prisma": "^5.18.0"
   }
 }
