@@ -9,7 +9,7 @@ const app = express();
 app.use('/api/auth', authRoutes);
 app.use('/api/message', messageRoutes);
 
-app.listen(3000, () => {
-  console.log('Server is running on http://localhost:3000');
+app.listen(5000, () => {
+  console.log('Server is running on http://localhost:5000');
 });
 
